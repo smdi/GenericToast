@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/genericToast"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/genericToastCard"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        app:cardBackgroundColor="@color/gt_card_default_background_color"
+        app:cardCornerRadius="@dimen/gt_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/genericToastTypeImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/gt_success_image"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/genericToastTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#173B16"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:maxLines="1"
+                    android:fontFamily="@font/abeezee_regular"
+                    android:text="Success"
+                    />
+
+                <TextView
+                    android:layout_below="@id/genericToastTitle"
+                    android:id="@+id/genericToastMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#666666"
+                    android:fontFamily="@font/inter"
+                    android:text="Connection established successfully!"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

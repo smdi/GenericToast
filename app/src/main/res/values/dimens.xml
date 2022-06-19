@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--card dimension    -->
+    <dimen name="gt_width">200dp</dimen>
+    <dimen name="gt_height">100dp</dimen>
+    <dimen name="gt_corner_radius">15dp</dimen>
+
+
+
+</resources>
