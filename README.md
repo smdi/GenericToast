@@ -6,7 +6,9 @@
 
 ### Demo📽
 
-https://user-images.githubusercontent.com/30797411/174609615-de76b341-3eff-47f3-80e1-09569eb3060c.mp4
+###### [Generic toast demo youtube link](https://youtu.be/cU_eyGm0At8)
+
+![GenericToastDemo](https://user-images.githubusercontent.com/30797411/174627178-f3a14e18-5b8d-48a6-bed9-35f48623da05.gif)
 
 ### Project Dependency
 
