@@ -2,7 +2,7 @@
 
 ## Hey there👋, I have designed this beautiful Generic💎🔮⛏ Toast Library for Java & Kotlin
 
-![Group 294](https://user-images.githubusercontent.com/30797411/174608282-8dd4e674-e23b-4d2b-b78c-468092c44328.svg)
+![Generic Toast Dashboard](https://user-images.githubusercontent.com/30797411/174608282-8dd4e674-e23b-4d2b-b78c-468092c44328.svg)
 
 ### Demo📽
 
@@ -26,7 +26,7 @@ allprojects {
 ```
 dependencies {
 
-	  implementation 'com.github.smdi:GenericToast:0.1.0'
+	  implementation 'com.github.smdi:GenericToast:0.1.1'
 }
 
 ```
