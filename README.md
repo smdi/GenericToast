@@ -1,6 +1,6 @@
 # Generic💎🔮⛏ Toast Library
 
-## Hey there👋, I have designed this simple, beautiful & light weight Generic💎🔮⛏ Animated Toast Library for Java & Kotlin. Designed for resource constraint apps.
+## Hey there👋, I have designed this beautiful & light weight Generic💎🔮⛏ Toast Library for Java & Kotlin
 
 ![Group 294](https://user-images.githubusercontent.com/30797411/174608282-8dd4e674-e23b-4d2b-b78c-468092c44328.svg)
 
