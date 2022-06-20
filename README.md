@@ -6,7 +6,7 @@
 
 ### Demo📽
 
-###### [Generic toast demo youtube link](https://youtu.be/cU_eyGm0At8)
+###### [Generic toast demo youtube link](https://youtu.be/jDFGACv8s2w)
 
 ![GenericToastDemo](https://user-images.githubusercontent.com/30797411/174627178-f3a14e18-5b8d-48a6-bed9-35f48623da05.gif)
 
