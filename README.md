@@ -1,12 +1,12 @@
 # Generic💎🔮⛏ Toast Library
 
-## Hey there👋, I have designed this beautiful Generic💎🔮⛏ Toast Library for Java & Kotlin
+## Hey there👋, I have designed this simple, beautiful & light weight Generic💎🔮⛏ Animated Toast Library for Java & Kotlin. Designed for resource constraint apps.
 
 ![Group 294](https://user-images.githubusercontent.com/30797411/174608282-8dd4e674-e23b-4d2b-b78c-468092c44328.svg)
 
 ### Demo📽
 
-https://user-images.githubusercontent.com/30797411/174112822-5d7f0077-0ad6-4023-b79c-6488c68a822c.mp4
+https://user-images.githubusercontent.com/30797411/174609615-de76b341-3eff-47f3-80e1-09569eb3060c.mp4
 
 ### Project Dependency
 
@@ -32,38 +32,45 @@ dependencies {
 ### Implementation
 
 ```
-HalloweenToast.showToast(mainActivity,                   //activity
-                        "Sunrise",                        //title
-                        "You've survived the demons",      //message
-                        HalloweenToast.LENGTH_LONG,         //duration
-                        HalloweenToast.SUCCESS,              //type
-                        HalloweenToast.LITE,                  //mode
-                        R.font.eater_regular,                  //font for title 
-                        R.font.fontdinerswanky_regular);        //font for message
+GenericToast.showToast(activity,					//activity
+			"Success",					//title
+			"Connection established successfully!",		//message
+                	GenericToast.LENGTH_SHORT, 			//duration
+			GenericToast.SUCCESS, 				//type
+			GenericToast.DARK, 				//mode
+			R.font.abeezee_regular, 			//title font
+			GenericToast.DEFAULT_FONT));			//message font
 ```
 
+### Default font
+```diff
+- If you want you use system default font, pass GenericToast.DEFAULT_FONT as parameter
+
+GenericToast.DEFAULT_FONT
+
+```
 ### Five✋ types
 
 ```
-HalloweenToast.SUCCESS
-HalloweenToast.ERROR
-HalloweenToast.WARNING
-HalloweenToast.INFO
-HalloweenToast.CUSTOM
+GenericToast.SUCCESS
+GenericToast.ERROR
+GenericToast.WARNING
+GenericToast.INFO
+GenericToast.CUSTOM
 ```
 
 ### Two✌ modes
 
 ```
-HalloweenToast.LITE
-HalloweenToast.DARK
+GenericToast.LITE
+GenericToast.DARK
 ```
 
 ### Two✌ dedicated durations⏰
 
 ```
-HalloweenToast.LENGTH_SHORT       //2 seconds
-HalloweenToast.LENGTH_LONG        //4 seconds
+GenericToast.LENGTH_SHORT       //2 seconds
+GenericToast.LENGTH_LONG        //4 seconds
 ```
 
 ### [License](http://www.apache.org/licenses/LICENSE-2.0)
