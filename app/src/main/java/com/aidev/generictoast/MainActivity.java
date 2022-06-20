@@ -26,13 +26,6 @@ public class MainActivity extends AppCompatActivity {
         View view = LayoutInflater.from(mainActivity)
                 .inflate(R.layout.generic_toast_layout, null);
 
-        ImageView genericToastImageType = view.findViewById(R.id.genericToastTypeImage);
-        final Animation myAnim = AnimationUtils.loadAnimation(this, R.anim.gt_bounce_animation);
-
-        BounceActionAnimation interpolator = new BounceActionAnimation(0.2, 25);
-        myAnim.setInterpolator(interpolator);
-
-        genericToastImageType.startAnimation(myAnim);
 
         Toast toast = new Toast(mainActivity);
         toast.setDuration(Toast.LENGTH_LONG);
