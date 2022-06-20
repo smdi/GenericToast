@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void callGenericToast(MainActivity mainActivity) {
 
-        String Mode = GenericToast.LITE;
+        String mode = GenericToast.LITE;
         int len = GenericToast.LENGTH_SHORT;
 
         Button success = mainActivity.findViewById(R.id.Success);
@@ -34,19 +34,19 @@ public class MainActivity extends AppCompatActivity {
         Button custom = mainActivity.findViewById(R.id.Custom);
 
         success.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Success", "Connection established successfully!",
-                len, GenericToast.SUCCESS, Mode, R.font.abeezee_regular, R.font.inter));
+                len, GenericToast.SUCCESS, mode, R.font.abeezee_regular, R.font.inter));
 
         error.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Error", "Connection establishment failed!",
-                len, GenericToast.ERROR, Mode, R.font.abeezee_regular, R.font.inter));
+                len, GenericToast.ERROR, mode, R.font.abeezee_regular, R.font.inter));
 
         warning.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Warning", "Connection has vulnerabilities!",
-                len, GenericToast.WARNING, Mode, R.font.abeezee_regular, R.font.inter));
+                len, GenericToast.WARNING, mode, R.font.abeezee_regular, R.font.inter));
 
         info.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Info", "Incoming request detected!",
-                len, GenericToast.INFO, Mode, R.font.abeezee_regular, R.font.inter));
+                len, GenericToast.INFO, mode, R.font.abeezee_regular, R.font.inter));
 
         custom.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Terminate", "Connection terminated successfully!",
-                len, GenericToast.CUSTOM, Mode, R.font.abeezee_regular, R.font.inter));
+                len, GenericToast.CUSTOM, mode, R.font.abeezee_regular, R.font.inter));
 
     }
 }
