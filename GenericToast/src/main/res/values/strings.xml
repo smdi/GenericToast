@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">GenericToastLibrary</string>
     <string name="genericToastTypeImage">GenericToastTypeImage</string>
     <string name="genericToastTitle">Title</string>
     <string name="genericToastMessage">Message</string>

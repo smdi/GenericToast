@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">GenericToast</string>
-    <string name="genericToastTypeImage">GenericToastTypeImage</string>
-    <string name="genericToastTitle">Success</string>
-    <string name="genericToastMessage">Connection established successfully!</string>
 </resources>
