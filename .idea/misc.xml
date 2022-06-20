@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/layout/generic_toast_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_custom_image.xml" value="0.279" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_custom_image1.xml" value="0.279" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_custom_image2.xml" value="0.279" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_error_image.xml" value="0.279" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_info_image.xml" value="0.279" />
         <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_success_image.xml" value="0.2205" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_warning_image.xml" value="0.279" />
         <entry key="..\:/Android/GenericToast/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android/GenericToast/app/src/main/res/layout/generic_toast_layout.xml" value="0.38838475499092556" />
+        <entry key="..\:/Android/GenericToast/app/src/main/res/layout/generic_toast_layout.xml" value="0.1493975903614458" />
       </map>
     </option>
   </component>

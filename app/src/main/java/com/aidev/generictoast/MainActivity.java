@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -18,26 +19,34 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        callToast(this);
+        callGenericToast(this);
     }
 
-    private void callToast(MainActivity mainActivity) {
+    private void callGenericToast(MainActivity mainActivity) {
 
-        View view = LayoutInflater.from(mainActivity)
-                .inflate(R.layout.generic_toast_layout, null);
+        String Mode = GenericToast.LITE;
+        int len = GenericToast.LENGTH_SHORT;
 
-        ImageView genericToastImageType = view.findViewById(R.id.genericToastTypeImage);
-        final Animation myAnim = AnimationUtils.loadAnimation(this, R.anim.gt_bounce_animation);
+        Button success = mainActivity.findViewById(R.id.Success);
+        Button error = mainActivity.findViewById(R.id.Error);
+        Button warning = mainActivity.findViewById(R.id.Warning);
+        Button info = mainActivity.findViewById(R.id.Info);
+        Button custom = mainActivity.findViewById(R.id.Custom);
 
-        BounceActionAnimation interpolator = new BounceActionAnimation(0.2, 25);
-        myAnim.setInterpolator(interpolator);
+        success.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Success", "Connection established successfully!",
+                len, GenericToast.SUCCESS, Mode, R.font.abeezee_regular, R.font.inter));
 
-        genericToastImageType.startAnimation(myAnim);
+        error.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Error", "Connection establishment failed!",
+                len, GenericToast.ERROR, Mode, R.font.abeezee_regular, R.font.inter));
 
-        Toast toast = new Toast(mainActivity);
-        toast.setDuration(Toast.LENGTH_LONG);
-        toast.setView(view);
-        toast.show();
+        warning.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Warning", "Connection has vulnerabilities!",
+                len, GenericToast.WARNING, Mode, R.font.abeezee_regular, R.font.inter));
+
+        info.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Info", "Incoming request detected!",
+                len, GenericToast.INFO, Mode, R.font.abeezee_regular, R.font.inter));
+
+        custom.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Terminate", "Connection terminated successfully!",
+                len, GenericToast.CUSTOM, Mode, R.font.abeezee_regular, R.font.inter));
 
     }
 }
