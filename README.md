@@ -26,7 +26,7 @@ allprojects {
 ```
 dependencies {
 
-	  implementation 'com.github.smdi:GenericToast:0.1.1'
+	  implementation 'com.github.smdi:GenericToast:0.1.3'
 }
 
 ```
