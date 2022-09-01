@@ -28,7 +28,6 @@ dependencies {
 
 	  implementation 'com.github.smdi:GenericToast:0.1.3'
 }
-
 ```
 
 ### Implementation
