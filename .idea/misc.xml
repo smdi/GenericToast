@@ -4,6 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image.xml" value="0.279" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image1.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image10.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image11.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image12.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image13.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_custom_image2.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_info_animation_list.xml" value="0.257" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_success_animation_list.xml" value="0.257" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_success_image1.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_warning_animation_list.xml" value="0.257" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/drawable/gt_warning_image.xml" value="0.2725" />
+        <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Android/GenericToast/GenericToast/src/main/res/layout/generic_toast_layout.xml" value="0.27447916666666666" />
         <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_custom_image.xml" value="0.279" />
         <entry key="..\:/Android/GenericToast/app/src/main/res/drawable/gt_custom_image1.xml" value="0.279" />
