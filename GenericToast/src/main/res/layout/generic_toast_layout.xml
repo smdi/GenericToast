@@ -11,6 +11,7 @@
         android:layout_width="@dimen/gt_card_width"
         android:layout_height="wrap_content"
         android:minHeight="@dimen/gt_card_min_height"
+        android:theme="@style/Theme.MaterialComponents.Light"
         app:cardBackgroundColor="@color/gt_card_default_background_color"
         app:cardCornerRadius="@dimen/gt_corner_radius">
 
@@ -65,7 +66,6 @@
                     />
 
             </RelativeLayout>
-
 
         </LinearLayout>
 
