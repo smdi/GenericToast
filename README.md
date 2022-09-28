@@ -40,7 +40,7 @@ GenericToast.showToast(activity,					//activity
 			GenericToast.SUCCESS, 				//type
 			GenericToast.DARK, 				//mode
 			R.font.abeezee_regular, 			//title font
-			GenericToast.DEFAULT_FONT));			//message font
+			GenericToast.DEFAULT_FONT);			//message font
 ```
 
 ### Default font
