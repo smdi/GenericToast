@@ -29,34 +29,34 @@ public class MainActivity extends AppCompatActivity {
         Button fullRainbow= mainActivity.findViewById(R.id.FullRainbow);
         fullRainbow.setVisibility(View.GONE);
 
-        success.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Success", "Connection established successfully!",
-                len, GenericToast.SUCCESS, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
-
-        error.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Error", "Connection establishment failed!",
-                len, GenericToast.ERROR, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
-
-        warning.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Warning", "Connection has vulnerabilities!",
-                len, GenericToast.WARNING, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
-
-        info.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Info", "Incoming request detected!",
-                len, GenericToast.INFO, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
-
-        custom.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Terminate", "Connection terminated successfully!",
-                len, GenericToast.CUSTOM, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
-
-//        success.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Connection established successfully!",
+//        success.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Success", "Connection established successfully!",
 //                len, GenericToast.SUCCESS, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
 //
-//        error.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Connection establishment failed!",
+//        error.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Error", "Connection establishment failed!",
 //                len, GenericToast.ERROR, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
 //
-//        warning.setOnClickListener(v -> GenericToast.showToast(mainActivity,  "Connection has vulnerabilities!",
+//        warning.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Warning", "Connection has vulnerabilities!",
 //                len, GenericToast.WARNING, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
 //
-//        info.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Incoming request detected!",
+//        info.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Info", "Incoming request detected!",
 //                len, GenericToast.INFO, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
 //
-//        custom.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Connection terminated successfully!",
+//        custom.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Terminate", "Connection terminated successfully!",
 //                len, GenericToast.CUSTOM, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
+
+        success.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Connection established successfully!",
+                len, GenericToast.SUCCESS, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
+
+        error.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Connection establishment failed!",
+                len, GenericToast.ERROR, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
+
+        warning.setOnClickListener(v -> GenericToast.showToast(mainActivity,  "Connection has vulnerabilities!",
+                len, GenericToast.WARNING, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
+
+        info.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Incoming request detected!",
+                len, GenericToast.INFO, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
+
+        custom.setOnClickListener(v -> GenericToast.showToast(mainActivity, "Connection terminated successfully!",
+                len, GenericToast.CUSTOM, mode, GenericToast.DEFAULT_FONT, GenericToast.DEFAULT_FONT));
     }
 }
