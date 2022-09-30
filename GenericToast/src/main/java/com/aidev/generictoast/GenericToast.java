@@ -3,6 +3,7 @@ package com.aidev.generictoast;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
@@ -28,6 +29,7 @@ public class GenericToast {
     public static final int DEFAULT_FONT = 0;
     public static final int LENGTH_SHORT = 0;
     public static final int LENGTH_LONG = 1;
+    public static final int YOFFSET = 250;
 
     public static void showToast(Activity activity, String titleData, String messageData,
                                  int duration, String type, String mode, int titleFont, int messageFont) {
@@ -52,6 +54,7 @@ public class GenericToast {
         Toast toast = new Toast(activity);
         toast.setDuration(duration);
         toast.setView(view);
+        toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, YOFFSET);
         toast.show();
         startAnimationToastTypeImage(view, activity, genericToastImageType);
     }
@@ -79,6 +82,7 @@ public class GenericToast {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
         toast.setView(view);
+        toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, YOFFSET);
         toast.show();
         startAnimationToastTypeImage(view, context, genericToastImageType);
     }
@@ -103,6 +107,7 @@ public class GenericToast {
         Toast toast = new Toast(activity);
         toast.setDuration(duration);
         toast.setView(view);
+        toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, YOFFSET);
         toast.show();
         startAnimationToastTypeImage(view, activity, genericToastImageType);
     }
@@ -127,6 +132,7 @@ public class GenericToast {
         Toast toast = new Toast(context);
         toast.setDuration(duration);
         toast.setView(view);
+        toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, YOFFSET);
         toast.show();
         startAnimationToastTypeImage(view, context, genericToastImageType);
     }
