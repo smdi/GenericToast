@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">GenericToast</string>
+    <string name="genericToastTypeImage">GenericToastTypeImage</string>
+    <string name="genericToastTitle">Title</string>
+    <string name="genericToastMessage">Message</string>
+
+    <string name="app_name">RainbowLibraryTest</string>
 </resources>
