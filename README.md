@@ -4,6 +4,8 @@
 
 ![Generic Toast Dashboard](https://user-images.githubusercontent.com/30797411/174608282-8dd4e674-e23b-4d2b-b78c-468092c44328.svg)
 
+![GT_Message](https://user-images.githubusercontent.com/30797411/193419108-5a226582-2b63-4562-9d66-3631e3c3d6ef.png)
+
 ### Demo📽
 
 ###### [Generic toast demo youtube link](https://youtu.be/jDFGACv8s2w)
@@ -30,11 +32,23 @@ dependencies {
 }
 ```
 
-### Implementation
+### Implementation with title and message
 
 ```
-GenericToast.showToast(activity,					//activity
+GenericToast.showToast(activity,					//activity or context
 			"Success",					//title
+			"Connection established successfully!",		//message
+                	GenericToast.LENGTH_SHORT, 			//duration
+			GenericToast.SUCCESS, 				//type
+			GenericToast.DARK, 				//mode
+			R.font.abeezee_regular, 			//title font
+			GenericToast.DEFAULT_FONT);			//message font
+```
+
+### Implementation with message
+
+```
+GenericToast.showToast(activity,					//activity or context			
 			"Connection established successfully!",		//message
                 	GenericToast.LENGTH_SHORT, 			//duration
 			GenericToast.SUCCESS, 				//type
