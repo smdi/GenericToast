@@ -2,9 +2,9 @@
 
 ## Hey there👋, I have designed this beautiful Generic💎🔮⛏ Toast Library for Java & Kotlin
 
-![Generic Toast Dashboard](https://user-images.githubusercontent.com/30797411/174608282-8dd4e674-e23b-4d2b-b78c-468092c44328.svg)
+![GT_Title_Message](https://user-images.githubusercontent.com/30797411/202720166-4a461dfb-48d7-47f2-af54-0bad55d197d1.svg)
 
-![GT_Message](https://user-images.githubusercontent.com/30797411/193419108-5a226582-2b63-4562-9d66-3631e3c3d6ef.png)
+![GT_Message](https://user-images.githubusercontent.com/30797411/202720195-3aa8035c-f0eb-486d-8626-37fa6c99b5ef.svg)
 
 ### Demo📽
 
