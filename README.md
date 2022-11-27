@@ -10,8 +10,7 @@
 
 ###### [Generic toast demo youtube link](https://www.youtube.com/watch?v=ceJnsqcNtJs)
 
-![GenericToastDemo3_AdobeExpress](https://user-images.githubusercontent.com/30797411/204130183-bf2f28b7-9603-4627-8be4-162401f54a4d.gif)
-
+https://user-images.githubusercontent.com/30797411/204130832-fa71614b-5b8c-4949-9423-c1759dc3d9df.mp4
 
 ### Project Dependency
 
