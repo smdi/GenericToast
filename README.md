@@ -2,15 +2,16 @@
 
 ## Hey there👋, I have designed this beautiful Generic💎🔮⛏ Toast Library for Java & Kotlin
 
-![GT_Title_Message](https://user-images.githubusercontent.com/30797411/202720166-4a461dfb-48d7-47f2-af54-0bad55d197d1.svg)
+![GT_Title_Message](https://user-images.githubusercontent.com/30797411/204130238-94c9502d-7e15-40a7-8a28-cd4c1a13ee5c.svg)
 
-![GT_Message](https://user-images.githubusercontent.com/30797411/202720195-3aa8035c-f0eb-486d-8626-37fa6c99b5ef.svg)
+![GT_Message](https://user-images.githubusercontent.com/30797411/204130231-b149bc17-0690-458d-a37c-dfca51517d41.svg)
 
 ### Demo📽
 
-###### [Generic toast demo youtube link](https://youtu.be/jDFGACv8s2w)
+###### [Generic toast demo youtube link](https://www.youtube.com/watch?v=ceJnsqcNtJs)
 
-![GenericToastDemo](https://user-images.githubusercontent.com/30797411/174627178-f3a14e18-5b8d-48a6-bed9-35f48623da05.gif)
+![GenericToastDemo3_AdobeExpress](https://user-images.githubusercontent.com/30797411/204130183-bf2f28b7-9603-4627-8be4-162401f54a4d.gif)
+
 
 ### Project Dependency
 
